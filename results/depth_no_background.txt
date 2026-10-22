@@ -1,0 +1,17 @@
+Feedforward chain, 10 ms digital stop, input buffered, 300 pauses; layer k = output of a k-layer chain
+
+  excess dead time (ms): median [IQR]
+  restored                 depth 1               depth 2               depth 3               depth 4
+  wiped         25.9 [ 22.8, 29.2]    48.0 [ 35.0, 61.3]    49.9 [  2.1, 87.8]    14.5 [  0.5, 89.6]
+  v             13.4 [ 11.3, 16.6]    34.0 [ 22.4, 46.3]    20.8 [  1.1, 71.2]     3.2 [  0.3, 75.3]
+  u             20.2 [ 17.5, 22.9]    40.4 [ 30.4, 51.1]    27.8 [  1.6, 78.3]     3.8 [  0.4, 78.3]
+  v+u            0.0 [  0.0,  0.0]     0.0 [  0.0,  0.0]     0.0 [  0.0,  0.0]     0.0 [  0.0,  0.0]
+  wiped: -3.2 ms per layer (linear fit to the medians)
+
+  lost output (ms-equivalent over 200 ms): mean ± 95% CI
+  restored                 depth 1               depth 2               depth 3               depth 4
+  wiped                30.1 ±  0.9           52.5 ±  4.1           53.9 ± 27.1           73.0 ± 15.9
+  v                    18.8 ±  0.7           38.2 ±  3.4           56.7 ±  8.0           55.9 ± 21.8
+  u                    24.2 ±  0.7           45.1 ±  3.7           58.8 ± 11.3           66.4 ± 16.9
+  v+u                   0.0 ±  0.0            0.3 ±  0.1            1.1 ±  0.6            2.5 ±  1.3
+  wiped: 13.0 ms per layer (linear fit to the means)

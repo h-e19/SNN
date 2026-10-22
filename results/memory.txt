@@ -1,0 +1,13 @@
+Clustered E-I network (J+ 2.4), 200 ms delay, 10 ms digital stop 100 ms into the delay; 900 trials per condition (30 streams x 30), chance 0.25
+control: accuracy 0.993, mean margin 47.8 Hz
+condition                     acc           Δacc [95% CI]  lost/gained       p        Δmargin Hz [95% CI]        p  spikes = control
+wiped, input buffered       0.266   -0.728 [-0.757,-0.699]    655/0      1e-197     -61.8 [-64.1,-59.6]    3e-31              0.00
+v, input buffered           0.993   +0.000 [+0.000,+0.000]      0/0           1      -0.0 [-0.3,+0.3]      0.8              0.00
+u, input buffered           0.993   +0.000 [+0.000,+0.000]      0/0           1      +0.0 [-0.3,+0.4]      0.8              0.00
+v+u, input buffered         0.993   +0.000 [+0.000,+0.000]      0/0           1      +0.1 [-0.2,+0.3]      0.6              0.23
+all, input buffered         0.993   +0.000 [+0.000,+0.000]      0/0           1      +0.0 [+0.0,+0.0]        1              1.00
+wiped, input lost           0.273   -0.720 [-0.750,-0.690]    649/1      3e-193     -59.2 [-61.3,-57.1]    2e-31              0.00
+v, input lost               0.993   +0.000 [+0.000,+0.000]      0/0           1      -0.2 [-0.5,+0.1]      0.2              0.00
+u, input lost               0.992   -0.001 [-0.003,+0.001]      1/0           1      -0.2 [-0.5,+0.1]      0.3              0.00
+v+u, input lost             0.993   +0.000 [+0.000,+0.000]      0/0           1      -0.1 [-0.4,+0.3]      0.7              0.00
+all, input lost             0.993   +0.000 [+0.000,+0.000]      0/0           1      -0.0 [-0.3,+0.3]        1              0.00
